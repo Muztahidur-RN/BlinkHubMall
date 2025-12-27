@@ -1,0 +1,133 @@
+body {
+    font-family: Arial;
+    background: #f5f5f5;
+}
+
+.dashboard {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.form-box {
+    max-width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background: #006a4e;
+    color: white;
+    border: none;
+}
+
+.pending {
+    color: orange;
+}
+
+.locked {
+    color: red;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background: #006a4e;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.approve {
+    background: #006a4e;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    margin-right: 5px;
+}
+
+.reject {
+    background: #c0392b;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.product-card h3 {
+    margin-bottom: 10px;
+}
+
+.buy {
+    background: #006a4e;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.locked-product {
+    opacity: 0.6;
+}
+
+.locked-text {
+    color: red;
+    margin: 10px 0;
+}
+
+.locked-btn {
+    background: #999;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}

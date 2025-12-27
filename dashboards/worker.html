@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Worker Dashboard | BlinkHub</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<div class="dashboard">
+  <h1>Worker Dashboard</h1>
+  <p class="subtitle">Order Processing & Delivery Management</p>
+
+  <!-- Assigned Orders -->
+  <div class="card">
+    <h3>Assigned Orders</h3>
+    <table class="table">
+      <tr>
+        <th>Order ID</th>
+        <th>Customer</th>
+        <th>Product</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>#BH1021</td>
+        <td>Rahim</td>
+        <td>Smartphone</td>
+        <td>
+          <select>
+            <option>Pending</option>
+            <option>Packed</option>
+            <option>Out for Delivery</option>
+            <option>Delivered</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>#BH1022</td>
+        <td>Karim</td>
+        <td>Headphones</td>
+        <td>
+          <select>
+            <option>Pending</option>
+            <option>Packed</option>
+            <option>Out for Delivery</option>
+            <option>Delivered</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Worker Notes -->
+  <div class="card">
+    <h3>Worker Notes</h3>
+    <textarea placeholder="Add internal notes (not visible to users)"></textarea>
+    <button>Save Notes</button>
+  </div>
+
+</div>
+
+</body>
+</html>
